@@ -34,10 +34,3 @@ On form success, the page redirects to / or the table is refreshed manually.
 
 Product model is assumed to use status field for filtering.
 
-🐞 Common Fixes
-Replace ->all() with ->get() in Eloquent queries.
-
-Avoid location.reload() in AJAX success callbacks — use window.location.href = "/" instead.
-
-Always check CSRF token and matching route URLs.
-
